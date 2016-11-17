@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>Nextbase Vue Skeleton</title>
+  <link rel="stylesheet" href="styles/app.css">
+  <script src="javascripts/app.js"></script>
+  <script>require('script/main');</script>
+</head>
+<body>
+  <div id="app">
+    <section class="pure-g">
+      <div class="pure-u-1 pure-u-md-1-1">
+        <button v-on:click="logout" v-if="loggedIn">Logout</button>
+        <button v-on:click="test" v-if="loggedIn">Test</button>
+        <button v-on:click="login" v-else="loggedIn">Login</button>
+      </div>
+    </section>
+    <section class="pure-g">
+      <div class="pure-u-1 pure-u-md-1-1">
+        {{ message }}
+      </div>
+    </section>
+  </div>
+</body>
+</html>
