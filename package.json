@@ -2,10 +2,10 @@
   "name": "nextbase-vue",
   "description": "Nextbase is a little series of boilerplate apps. This one is for brunch, vue and asteroid (DDP).",
   "author": "softwarerero",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/softwarerero/nextbase-vue"
   },
   "scripts": {
     "start": "brunch watch --server --port 3334",
